@@ -1,9 +1,13 @@
-# Yu-Gi-Oh | Jo-ken-po Edition
+# Landing Page GTA V
 
-Jogo de jokenpo que criei para explicar conceitos de lógica de programação aplicados a jogos
+Uma Landing Page de GTA V e GTA Online 
 
-conceitos abordados:
+Conteudos do Código:
 
 - Armazenamento e gerenciamento de estado manual
 - Funções limpas
 - Organização de código
+
+## Preview:
+
+![Screenshot_81](https://github.com/user-attachments/assets/3a5c1f46-bc44-4a32-acea-bc0984eeb71b)
