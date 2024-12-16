@@ -4,9 +4,8 @@ Uma Landing Page de GTA V e GTA Online
 
 Conteudos do Código:
 
-- Armazenamento e gerenciamento de estado manual
-- Funções limpas
-- Organização de código
+- Suporte para o site da Rockstar Games
+- Código Limpo
 
 ## Preview:
 
