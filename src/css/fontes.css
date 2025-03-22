@@ -2,3 +2,8 @@
     font-family: "ChaletComprime";
     src: url(../fonts/ChaletComprime.ttf);
 }
+
+@font-face {
+    font-family: "PintoLunaire";
+    src: url(../fonts/PintoLunaire-119Z.ttf);
+}

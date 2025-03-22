@@ -16,6 +16,26 @@ body {
 .cabecalho .logo {
   display: flex;
   gap: 15px;
+  align-items: center;
+}
+
+.cabecalho .logo hr {
+  width: 1px;
+  height: 30px;
+  background-color: #fff;
+}
+
+.cabecalho .logo .imagem-logo-rockstar {
+  transition: all 0.3s ease-in-out;
+}
+
+.imagem-logo-rockstar:hover {
+  cursor: pointer;
+  transform: scale(1.3);
+}
+
+.cabecalho .logo .imagem-logo{
+    max-height: 50px;
 }
 
 .cabecalho .menu {
@@ -33,9 +53,11 @@ body {
   transition: all 0.3s ease-in-out;
 }
 
-.cabecalho .menu li a:hover {
-  border-bottom: 2px solid #fff;
-  color: #fff;
+.paragrafo{
+    font-family: "pintolunaire", sans-serif;
+    font-weight: 100;
+    font-size: 17px;
+    line-height: 1.4;
 }
 
 .home {
@@ -107,11 +129,6 @@ body {
   text-transform: uppercase;
   width: 50%;
   transition: all 0.3s ease-in-out;
-}
-
-.home .informacoes .btn-comprar:hover {
-  background-color: #fff;
-  color: #000;
 }
 
 .btn-plataforma {
@@ -195,33 +212,16 @@ body {
   padding: 20px;
 }
 
-.compre-ja .btn-plataforma .plataformas li:nth-child(1) {
-  border: 1px solid #00439c;
+.container-images{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 50px;
+    max-width: 1800px;
 }
-.compre-ja .btn-plataforma .plataformas li:nth-child(1):hover {
-  background-color: #00439c;
-}
-.compre-ja .btn-plataforma .plataformas li:nth-child(2) {
-  border: 1px solid #387a26;
-}
-.compre-ja .btn-plataforma .plataformas li:nth-child(2):hover {
-  background-color: #387a26;
-}
-.compre-ja .btn-plataforma .plataformas li:nth-child(3) {
-  border: 1px solid #00439c;
-}
-.compre-ja .btn-plataforma .plataformas li:nth-child(3):hover {
-  background-color: #00439c;
-}
-.compre-ja .btn-plataforma .plataformas li:nth-child(4) {
-  border: 1px solid #387a26;
-}
-.compre-ja .btn-plataforma .plataformas li:nth-child(4):hover {
-  background-color: #387a26;
-}
-.compre-ja .btn-plataforma .plataformas li:nth-child(5) {
-  border: 1px solid #fcaf17;
-}
-.compre-ja .btn-plataforma .plataformas li:nth-child(5):hover {
-  background-color: #fcaf17;
+
+.container-images img{
+    width: 100%;
 }
