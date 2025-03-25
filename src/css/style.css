@@ -118,7 +118,17 @@ body {
   line-height: 1.6;
 }
 
-.home .informacoes .btn-comprar,
+.home .informacoes .btn-comprar{
+  background-color: rgb(255, 183, 1);
+  border-radius: 6px;
+  font-family: "ChaletComprime", sans-serif;
+  font-size: 18px;
+  padding: 11px 25px;
+  font-weight: 400;
+  width: 20%;
+  transition: all 0.3s ease-in-out;
+}
+
 .btn-plataforma {
   background-color: rgba(255, 255, 255, 0.1);
   border: 0.5px solid #fff;

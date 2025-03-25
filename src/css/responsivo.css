@@ -24,6 +24,44 @@
         font-size: 40px;
     }
 
+    .descricao-game{
+        padding: 30px;
+    }
+
+    .descricao-game .informacoes-game{
+        flex-direction: column;
+    }
+
+    .descricao-game .informacoes-game img{
+        max-width: 75%;
+    }
+
+    .descricao-game .informacoes-game .Descricao{
+        max-width: 100%;
+        font-size: 16px;
+    }
+
+    .imagens-game{
+        padding: 30px;
+
+    }
+
+    .imagens-game .container-images{
+        flex-direction: column;
+        gap: 10px;
+        padding-bottom: 0;
+    }
+
+    .imagens-game .container-images img{
+        max-width: 90%;
+    }
+
+    .home .informacoes .btn-comprar{
+        padding: 15px 30px;
+        font-size: 16px;
+        width: 15%;
+    }
+
     .compre-ja .cartao{
         width: 70%;
     }
@@ -52,8 +90,11 @@
         padding: 15px;
     }
 
-    .btn-comprar{
-        width: 100%;
+    .home .informacoes .btn-comprar{
+        text-align: center;
+        padding: 10px 20px;
+        font-size: 16px;
+        width: 20%;
     }
 }
 
